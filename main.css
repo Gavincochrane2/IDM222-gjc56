@@ -1,0 +1,136 @@
+html {
+    background-color: rgb(7, 72, 112);
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-top: 16px; 
+    
+}
+@font-face {
+  
+  font-family: 'PPEditorialNew-Regular';
+  src: url('css/fonts/PPEditorialNew-Regular.woff2') format('woff2');
+
+}
+@font-face {
+  font-family: 'PPEditorialNew-Ultralight';
+  src: url('css/fonts/PPEditorialNew-Ultralight.woff2') format('woff2');
+}
+
+body p {
+    
+  font-family: 'PPEditorialNew-Regular', Arial, Helvetica, sans-serif;
+  src: url('css/fonts/PPEditorialNew-Regular.woff2') format('woff2');
+    line-height: 18px;
+    text-align: left;
+    color: rgb(82, 81, 81);
+    color: var(--blue-1);
+    padding: 12px;
+
+}
+h1, h2{
+    color: white;
+    background-color: rgb(25, 6, 6);
+text-align: center;
+    text-decoration: underline;
+}
+header h1 {
+  margin-top: 0px;
+}
+main h2 {
+  margin-top: 48px;
+  margin-bottom: 5px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .important {
+    text-align: center;
+  }
+  a {
+    font-weight: bold;
+  }
+
+body ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    align-content: center;
+    margin-right: 20px;
+    text-decoration: underline;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: 0%;
+    padding-left: 0%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border-color: black;
+    border-width: 5px;
+    border-style: inset;
+
+}
+
+
+/* visited link */
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(7, 72, 112);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  border-style: groove;
+  border-color: rgb(0, 0, 0);
+  border-width: 5px;
+  border-radius: 8px;
+  margin-bottom: 36px;
+}
+
+header p {
+  display: flex;
+  justify-content: center;
+  align-items: center
+  
+  ;
+}
+
+h3 {
+  margin-top: 0%;
+  display: flex;
+  text-decoration: underline;
+  justify-content: center;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: none;
+}
+
+main p { 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(158, 158, 158);
+  background-size: auto;
+  margin-bottom: 48px;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-width: 5px;
+  background-color: rgb(158, 158, 158);
+}
