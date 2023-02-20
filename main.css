@@ -47,6 +47,12 @@ main h2 {
     margin-right: auto;
     width: 100%;
   }
+  .center1, .center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
   .important {
     text-align: center;
   }
@@ -94,6 +100,13 @@ a:link {
   align-items: center;
   box-sizing: border-box;
 }
+.center1, .center2 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  box-sizing: border-box;
+}
 .contact {
   display: flex;
   flex-direction: column;
@@ -107,9 +120,7 @@ a:link {
 header p {
   display: flex;
   justify-content: center;
-  align-items: center
-  
-  ;
+  align-items: center;
 }
 
 h3 {
@@ -133,4 +144,67 @@ main p {
   border-color: whitesmoke;
   border-width: 5px;
   background-color: rgb(158, 158, 158);
+}
+
+.family {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 767px) {
+  .family {
+    content: url("media/family.jpg");
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .family {
+    content: url("media/family-medium.jpg");
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .family {
+    content: url("media/family-large.jpg");
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .center1 {
+    content: url("media/Expressive Line.jpg");
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .center1 {
+    content: url("media/Expressive Line-medium.jpg");
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .center1 {
+    content: url("media/Expressive Line-large.jpg");
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .center2 {
+    content: url("media/Shape-and-Pattern.jpg");
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .center2 {
+    content: url("media/Shape-and-Pattern-medium.jpg");
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .center2 {
+    content: url("media/Shape-and-Pattern-large.jpg");
+  }
 }
