@@ -200,7 +200,16 @@ body p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 
+  }
+}
+@media only screen and (min-width: 750px) {
+  body p {
+     max-width: 75%;
+     margin-right: auto;
+     margin-left: auto;
   }
 }
 
