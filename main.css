@@ -85,12 +85,22 @@ body ul {
 
 /* visited link */
 a:visited {
-  color: rgb(0, 0, 0);
+  color: rgb(7, 72, 112);
 }
 
 /* unvisited link */
 a:link {
-  color: rgb(7, 72, 112);
+  color: rgb(126, 109, 237);
+}
+
+.me {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center {
@@ -152,6 +162,38 @@ main p {
   align-items: center;
   margin: 0px;
   box-sizing: border-box;
+}
+.family1 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-self: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info {
+  box-sizing: border-box;
+}
+
+.about {
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 5px;
+  border-radius: px;
+  background-color: rgb(158, 158, 158);
+}
+
+@media only screen and (min-width: 750px) {
+  .info {
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
 }
 
 @media only screen and (max-width: 767px) {
