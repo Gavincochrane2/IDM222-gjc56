@@ -155,6 +155,14 @@ main p {
   border-width: 5px;
   background-color: rgb(158, 158, 158);
 }
+body p {
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 5px;
+  border-radius: px;
+  background-color: rgb(158, 158, 158);
+}
+
 
 .family {
   display: flex;
