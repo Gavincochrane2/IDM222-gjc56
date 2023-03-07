@@ -215,6 +215,47 @@ body p {
   }
 }
 
+@media only screen and (min_width: 750px) {
+  * {
+    margin-right: 100px;
+    margin-right: 100px;
+  }
+}
+
+/*@media only screen and (min-width: 750px) {
+  ul.nav {
+    max-width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    align-content: auto;
+    text-decoration: underline;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: auto;
+    margin-right: none;
+    margin-left: none;
+    margin-bottom: 12px;
+    padding-left: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border-color: black;
+    border-width: 5px;
+    border-style: inset;
+  }
+}*/
+
+
+
+@media only screen and (min-width: 750px) {
+  h3 {
+    font-size: 26px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .family {
     content: url("media/family.jpg");
