@@ -9,23 +9,24 @@ html {
 @font-face {
   
   font-family: 'PPEditorialNew-Regular';
-  src: url('css/fonts/PPEditorialNew-Regular.woff2') format('woff2');
+  src: url('fonts/PPEditorialNew-Regular.woff2') format('woff2');
 
 }
 @font-face {
   font-family: 'PPEditorialNew-Ultralight';
-  src: url('css/fonts/PPEditorialNew-Ultralight.woff2') format('woff2');
+  src: url('fonts/PPEditorialNew-Ultralight.woff2') format('woff2');
 }
 
 body p {
     
   font-family: 'PPEditorialNew-Regular', Arial, Helvetica, sans-serif;
-  src: url('css/fonts/PPEditorialNew-Regular.woff2') format('woff2');
+  src: url('fonts/PPEditorialNew-Regular.woff2') format('woff2');
     line-height: 18px;
     text-align: left;
     color: rgb(82, 81, 81);
     color: var(--blue-1);
     padding: 12px;
+    margin-top: 10px;
 
 }
 h1, h2{
@@ -95,6 +96,11 @@ a:visited {
 /* unvisited link */
 a:link {
   color: rgb(126, 109, 237);
+}
+
+.nav:hover {
+  transform: scale(1.1);
+  transition: all .2s ease-in-out;
 }
 
 .me {
@@ -235,7 +241,7 @@ body p {
 @media screen and (min-width: 900px) {
   .grid1 {
     display: grid;
-    width: 45%;
+    width: 25%;
     float: right;
   }
 }
@@ -243,7 +249,7 @@ body p {
 @media screen and (min-width: 900px) {
   .grid {
     display: grid;
-    width: 45%;
+    width: 25%;
     float: left;
   }
 }
@@ -251,7 +257,9 @@ body p {
 @media screen and (min-width: 900px) {
   .projects {
     display: grid;
-    width: 99%;
+    width: 25%;
+    margin: auto;
+
     
   }
 }
@@ -319,13 +327,13 @@ body p {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .center1 {
-    content: url("media/Expressive Line-medium.jpg");
+    content: url("media/Expressive-line-medium.jpg");
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .center1 {
-    content: url("media/Expressive-line-large.jpg");
+    content: url("media/Expressive-Line-large.jpg");
   }
 }
 
